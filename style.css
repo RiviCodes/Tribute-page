@@ -1,7 +1,7 @@
 /* CSS */
 
 body {
-  background-color: hsl(240, 28%, 10%);
+  background-color: hsl(240, 28%, 13%);
   text-align: center;
 }
   
@@ -38,19 +38,64 @@ body {
   color: hsl(240, 22%, 40%);
 }
 
-#tribute-info {
+.disco-section {
+  /* Centers the whole discography section */
+  width: 900px;
+  margin: 0 auto;
+}
+
+.disco-header {
+  font-size: 22px;
   font-family: 'Poppins', sans-serif;
   color: hsl(240, 22%, 85%);
 }
 
-.album-review{
-  font-size: 12px;
-  text-align: center;
+.disco-ulist {
+  font-size: 21px;
+  font-family: 'Varela Round', sans-serif;
+  color: hsl(240, 22%, 85%);
 }
 
-#outro {
+.album-review {
+  font-size: 17px;
+  text-align: justify;
+  font-family: 'Varela Round', sans-serif;
+  color: hsl(240, 22%, 85%)
+}
+
+.source {
+  width: 130px;
+  margin: 0 auto;
+  padding: 0.1mm 0mm;
+  border-radius: 12%;
+  font-family: 'Varela Round', sans-serif;
+  text-decoration: none;
+  color: hsl(240, 22%, 85%);
+  background-color: hsl(240, 22%, 50%);
+}
+
+.outro-pic {
+  height: 170px;
+  width: auto;
+  margin: 35px auto;
+  border-radius: 50%;
+}
+
+.outro-header {
+  margin: 0 auto;
+  margin-bottom: 50px;
   font-family: 'Rubik', sans-serif;
   color: hsl(240, 22%, 90%);
+}
+
+.outro-text {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-size: 40px;
+  font-style: italic;
+  font-family: 'Mitr', sans-serif;
+  color: hsl(40, 100%, 75%);
 }
 
 .test-block {
@@ -65,3 +110,6 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
