@@ -9,39 +9,52 @@ body {
   font-family: 'Changa', sans-serif;
   font-size: 40px;
   text-align: center;
-  color: #9292b9;
+  color: hsl(240, 22%, 80%);
    }
 
 #iconic-duo {
-  font-family: 'Pacifico', cursive;
   font-size: 20px;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
-  color: #c1c1d7;
+  color: hsl(240, 22%, 80%);
 }
 
 #image {
-  width: 85%;
-  height: auto;
-  max-width: 100%;
   display: block;
+  height: auto; /* Mantain proportions */
+  width: 27%;
+  max-width: 100%;
+  border-radius: 50%; /* Rounded image */
   margin: auto;
-  position: relative; bottom: 10px;
+  position: relative; top: 10px; bottom: 10px;
 }
   
 #img-caption {
+  margin: 30px;
+  margin-top: 60px;
+  font-size: 14px;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 17px;
-  color: #b1b1cd;
+  font-style: italic;
+  color: hsl(240, 22%, 40%);
 }
 
 #tribute-info {
   font-family: 'Poppins', sans-serif;
-  color: #d0d0e1;
+  color: hsl(240, 22%, 85%);
+}
+
+.album-review{
+  font-size: 12px;
+  text-align: center;
 }
 
 #outro {
   font-family: 'Rubik', sans-serif;
-  color: #e0e0eb;
+  color: hsl(240, 22%, 90%);
+}
+
+.test-block {
+  margin: 50px auto;
 }
 
 /* Imported fonts */
@@ -51,3 +64,4 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
